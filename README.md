@@ -4,7 +4,7 @@ Deploy 'node customer.js' in the command line to:
 ![Full list](screenshots/customer1.png)
 2) Select an item using its ID, then select the number of these items desired for purchase.
 ![Purchase](screenshots/customer2.png)
-3) If you try to buy more of an item than is in stock, you will be alerted that their is an insufficient quantity.
+3) If you try to buy more of an item than is in stock, you will be alerted that there is an insufficient quantity.
 ![Insufficient quantity](screenshots/customer3.png)
 
 Deploy 'node manager.js' in the command line to:
