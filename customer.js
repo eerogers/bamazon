@@ -39,7 +39,7 @@ function question() {
             var item = results[0].product_name
             var price = results[0].price * r.q2
             var newQuantity = results[0].stock_quantity - r.q2
-            console.log(newQuantity)
+        //    console.log(newQuantity)
             if (newQuantity >= 0) { 
                 console.log("You have purchased " + r.q2 + " " + item + "s for $" + price + ". Thank you.") 
                 updateStock(newQuantity, r.q1)
